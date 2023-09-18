@@ -49,7 +49,6 @@
   },
   "scripts": {
     "package": "vsce package",
-    "publish": "vsce publish",
-    "release": "git push origin release"
+    "publish": "vsce publish"
   }
 }
