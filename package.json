@@ -3,7 +3,7 @@
   "displayName": "yumma-css-helper",
   "description": "A useful extension with Yumma CSS integration.",
   "version": "0.0.1",
-  "publisher": "yummacss",
+  "publisher": "yumma-css",
   "main": "extension.js",
   "icon": "icon.png",
   "activationEvents": [
@@ -46,5 +46,10 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/rrenildopereiraa/yumma-css-helper"
+  },
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish",
+    "release": "git push origin release"
   }
 }
